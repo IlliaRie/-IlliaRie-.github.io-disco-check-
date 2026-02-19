@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("Assets/portaits/portraitframe_TEX.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: rgb(26, 23, 23);
+}
+
+#background_tape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Assets/dialogue/Tape.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-position: center;
+    flex-direction: column;
+    height: 100%;
+    aspect-ratio: 0.51/1;
+}
+#skill-frame {
+    background-image: url("Assets/portaits/portraitframe_TEX.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+}
+
+#portrait {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 87%;
+}
+
+#gen-img {
+    position: absolute;
+    height: 20px;
+    width: 200px;
+}
+#generate {
+    background-image: url(Assets/skill/skill_selected_bg_o.png);
+    background-size: 90% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 4%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 0;
+    background-color: transparent;
+    font-size: 175%;
+}
+#dices {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#dices * {
+    width: 25%;
+    margin: 0px 5px 0px 5px;
+}
+
+* {
+    font-family: "Sina-Nova", sans-serif;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#effects {
+    position: fixed;
+    left: 0;
+    opacity: 70%;
+    background-image: url("Assets/check/check_splat\ 2.png");
+    background-size: 100% 100%;
+    width: 1000px;
+    height: 100%;
+    mix-blend-mode:lighten;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+#check {
+    background-image: url("Assets/skill/success.png");
+    background-position: center;
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 5%;
+    font-size: 225%;
+    margin-bottom: 3%;
+    font-family:"Dobra-light";
+    font-weight: bold;
+}
+
+#skill-name {
+    width: 75%;
+    height: 5%;
+    background-image: url("Assets/skill/psych.png");
+    background-position: center;
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    font-size: 180%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family:"Dobra-light";
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Sina-Nova";
+    src: url("Assets/fonts/Sina-Nova.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dobra-light";
+    src: url("Assets/fonts/Dobra-Light.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
